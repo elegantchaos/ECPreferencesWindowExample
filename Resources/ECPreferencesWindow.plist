@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Panels</key>
+	<string>BuiltInPanel</string>
+	<key>PanelsDebug</key>
+	<string>BuiltInPanel</string>
+	<key>BundleExtension</key>
+	<string>preferencesPane</string>
+	<key>BundleDirectory</key>
+	<string>Preferences</string>
+</dict>
+</plist>

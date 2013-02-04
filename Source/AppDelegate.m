@@ -10,7 +10,7 @@
 
 @interface AppDelegate()
 
-@property (strong, nonatomic) ECPreferencesController* preferences;
+@property (strong, nonatomic) ECPWController* preferences;
 
 @end
 
@@ -24,7 +24,7 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
-    self.preferences = [ECPreferencesController preferences];
+    self.preferences = [ECPWController preferencesWindowController];
 
     [self.preferences showPreferencesWindow];
 }
