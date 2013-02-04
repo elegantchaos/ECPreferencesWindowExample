@@ -27,10 +27,15 @@
 		22E60DC116C006FF00C988C9 /* ECCore.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 22E60DB816C006D100C988C9 /* ECCore.framework */; };
 		22E60DC216C0070100C988C9 /* ECLogging.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 22E60DB916C006D100C988C9 /* ECLogging.framework */; };
 		22E60DC316C0070400C988C9 /* ECPreferencesWindow.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 22E60DBA16C006D100C988C9 /* ECPreferencesWindow.framework */; };
-		22E60DC816C0104F00C988C9 /* BuiltInPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E60DC716C0104E00C988C9 /* BuiltInPanel.m */; };
+		22E60DC816C0104F00C988C9 /* BuiltInPane.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E60DC716C0104E00C988C9 /* BuiltInPane.m */; };
 		22E60DCA16C0106F00C988C9 /* ECPreferencesWindow.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22E60DC916C0106F00C988C9 /* ECPreferencesWindow.plist */; };
 		22E60DCE16C0218C00C988C9 /* ECLogging.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22E60DCC16C0218C00C988C9 /* ECLogging.plist */; };
 		22E60DCF16C0218C00C988C9 /* ECLoggingDebug.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22E60DCD16C0218C00C988C9 /* ECLoggingDebug.plist */; };
+		22E60DD116C02E5900C988C9 /* BuiltInPane.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22E60DD016C02E5900C988C9 /* BuiltInPane.xib */; };
+		22E60DD316C037DE00C988C9 /* BuiltInPane.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 22E60DD216C037DE00C988C9 /* BuiltInPane.tiff */; };
+		22E60DD616C03B6700C988C9 /* AnotherPane.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 22E60DD416C03B6600C988C9 /* AnotherPane.tiff */; };
+		22E60DD716C03B6700C988C9 /* AnotherPane.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22E60DD516C03B6600C988C9 /* AnotherPane.xib */; };
+		22E60DDA16C03B7900C988C9 /* AnotherPane.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E60DD916C03B7900C988C9 /* AnotherPane.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,11 +92,17 @@
 		22E60DB816C006D100C988C9 /* ECCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ECCore.framework; path = "/Caches/DerivedData/ECIntegration-fbajcwyruhnhxzgnphlhxaexutkp/Build/Products/Debug/ECCore.framework"; sourceTree = "<absolute>"; };
 		22E60DB916C006D100C988C9 /* ECLogging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ECLogging.framework; path = "/Caches/DerivedData/ECIntegration-fbajcwyruhnhxzgnphlhxaexutkp/Build/Products/Debug/ECLogging.framework"; sourceTree = "<absolute>"; };
 		22E60DBA16C006D100C988C9 /* ECPreferencesWindow.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ECPreferencesWindow.framework; path = "/Caches/DerivedData/ECIntegration-fbajcwyruhnhxzgnphlhxaexutkp/Build/Products/Debug/ECPreferencesWindow.framework"; sourceTree = "<absolute>"; };
-		22E60DC616C0104E00C988C9 /* BuiltInPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuiltInPanel.h; sourceTree = "<group>"; };
-		22E60DC716C0104E00C988C9 /* BuiltInPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuiltInPanel.m; sourceTree = "<group>"; };
+		22E60DC616C0104E00C988C9 /* BuiltInPane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuiltInPane.h; sourceTree = "<group>"; };
+		22E60DC716C0104E00C988C9 /* BuiltInPane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuiltInPane.m; sourceTree = "<group>"; };
 		22E60DC916C0106F00C988C9 /* ECPreferencesWindow.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ECPreferencesWindow.plist; sourceTree = "<group>"; };
 		22E60DCC16C0218C00C988C9 /* ECLogging.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ECLogging.plist; sourceTree = "<group>"; };
 		22E60DCD16C0218C00C988C9 /* ECLoggingDebug.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ECLoggingDebug.plist; sourceTree = "<group>"; };
+		22E60DD016C02E5900C988C9 /* BuiltInPane.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BuiltInPane.xib; sourceTree = "<group>"; };
+		22E60DD216C037DE00C988C9 /* BuiltInPane.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = BuiltInPane.tiff; sourceTree = "<group>"; };
+		22E60DD416C03B6600C988C9 /* AnotherPane.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = AnotherPane.tiff; sourceTree = "<group>"; };
+		22E60DD516C03B6600C988C9 /* AnotherPane.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnotherPane.xib; sourceTree = "<group>"; };
+		22E60DD816C03B7800C988C9 /* AnotherPane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnotherPane.h; sourceTree = "<group>"; };
+		22E60DD916C03B7900C988C9 /* AnotherPane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnotherPane.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,8 +198,10 @@
 			children = (
 				22E60D9B16C0054D00C988C9 /* AppDelegate.h */,
 				22E60D9C16C0054D00C988C9 /* AppDelegate.m */,
-				22E60DC616C0104E00C988C9 /* BuiltInPanel.h */,
-				22E60DC716C0104E00C988C9 /* BuiltInPanel.m */,
+				22E60DD816C03B7800C988C9 /* AnotherPane.h */,
+				22E60DD916C03B7900C988C9 /* AnotherPane.m */,
+				22E60DC616C0104E00C988C9 /* BuiltInPane.h */,
+				22E60DC716C0104E00C988C9 /* BuiltInPane.m */,
 				22E60D9D16C0054D00C988C9 /* Configuration */,
 				22E60DA016C0054D00C988C9 /* main.m */,
 				22E60DA116C0054D00C988C9 /* Prefix */,
@@ -218,6 +231,10 @@
 		22E60DA916C0055D00C988C9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				22E60DD016C02E5900C988C9 /* BuiltInPane.xib */,
+				22E60DD216C037DE00C988C9 /* BuiltInPane.tiff */,
+				22E60DD416C03B6600C988C9 /* AnotherPane.tiff */,
+				22E60DD516C03B6600C988C9 /* AnotherPane.xib */,
 				22E60DAA16C0055D00C988C9 /* Info.plist */,
 				22E60DCC16C0218C00C988C9 /* ECLogging.plist */,
 				22E60DCD16C0218C00C988C9 /* ECLoggingDebug.plist */,
@@ -309,6 +326,10 @@
 				22E60DCA16C0106F00C988C9 /* ECPreferencesWindow.plist in Resources */,
 				22E60DCE16C0218C00C988C9 /* ECLogging.plist in Resources */,
 				22E60DCF16C0218C00C988C9 /* ECLoggingDebug.plist in Resources */,
+				22E60DD116C02E5900C988C9 /* BuiltInPane.xib in Resources */,
+				22E60DD316C037DE00C988C9 /* BuiltInPane.tiff in Resources */,
+				22E60DD616C03B6700C988C9 /* AnotherPane.tiff in Resources */,
+				22E60DD716C03B6700C988C9 /* AnotherPane.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,7 +366,8 @@
 			files = (
 				22E60DA516C0054D00C988C9 /* AppDelegate.m in Sources */,
 				22E60DA816C0054D00C988C9 /* main.m in Sources */,
-				22E60DC816C0104F00C988C9 /* BuiltInPanel.m in Sources */,
+				22E60DC816C0104F00C988C9 /* BuiltInPane.m in Sources */,
+				22E60DDA16C03B7900C988C9 /* AnotherPane.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +442,10 @@
 		22E60D9516C0041700C988C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -428,6 +454,10 @@
 		22E60D9616C0041700C988C9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

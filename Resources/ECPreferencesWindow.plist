@@ -2,10 +2,19 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Panels</key>
-	<string>BuiltInPanel</string>
-	<key>PanelsDebug</key>
-	<string>BuiltInPanel</string>
+	<key>Panes</key>
+	<dict>
+		<key>BuiltInPane</key>
+		<dict>
+			<key>Name</key>
+			<string>Options</string>
+		</dict>
+		<key>AnotherPane</key>
+		<dict>
+			<key>Name</key>
+			<string>More Options</string>
+		</dict>
+	</dict>
 	<key>BundleExtension</key>
 	<string>preferencesPane</string>
 	<key>BundleDirectory</key>

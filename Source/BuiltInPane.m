@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 Elegant Chaos. All rights reserved.
 //
 
-#import "BuiltInPanel.h"
+#import "BuiltInPane.h"
 
-@implementation BuiltInPanel
+@implementation BuiltInPane
 
 @end
