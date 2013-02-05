@@ -34,7 +34,7 @@
 				<key>Name</key>
 				<string>More Options</string>
 				<key>ToolTip</key>
-				<string></string>
+				<string>Different tooltip text</string>
 			</dict>
 		</array>
 	</dict>
