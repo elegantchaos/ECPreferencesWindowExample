@@ -10,7 +10,6 @@
 
 @interface AppDelegate()
 
-@property (strong, nonatomic) ECPWController* preferences;
 
 @end
 
@@ -25,8 +24,16 @@
 {
     // Insert code here to initialize your application
     self.preferences = [ECPWController preferencesWindowController];
+}
 
-    [self.preferences showPreferencesWindow];
+- (IBAction)selectSecondPane:(id)sender
+{
+    [self.preferences showPaneWithIdentifier:@"AnotherPane"];
+}
+
+- (IBAction)selectThirdPane:(id)sender
+{
+    [self.preferences showPaneWithIdentifier:@"BundledPane"];
 }
 
 @end

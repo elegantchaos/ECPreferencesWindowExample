@@ -12,6 +12,10 @@
 		<string>preferences</string>
 		<key>BundleDirectory</key>
 		<string>Preferences</string>
+		<key>ToolbarDisplayMode</key>
+		<string>1</string>
+		<key>ToolbarSizeMode</key>
+		<string>0</string>
 		<key>UsesTexturedWindow</key>
 		<false/>
 		<key>Panes</key>
@@ -21,12 +25,16 @@
 				<string>BuiltInPane</string>
 				<key>Name</key>
 				<string>Options</string>
+				<key>ToolTip</key>
+				<string>Example tooltip</string>
 			</dict>
 			<dict>
 				<key>Class</key>
 				<string>AnotherPane</string>
 				<key>Name</key>
 				<string>More Options</string>
+				<key>ToolTip</key>
+				<string></string>
 			</dict>
 		</array>
 	</dict>

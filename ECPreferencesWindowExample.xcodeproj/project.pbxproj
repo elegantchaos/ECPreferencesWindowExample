@@ -38,7 +38,6 @@
 		22E60DE016C1218000C988C9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E60D6616C0041700C988C9 /* Cocoa.framework */; };
 		22E60DED16C121C800C988C9 /* BundleDebug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 22E60DEB16C121C700C988C9 /* BundleDebug.xcconfig */; };
 		22E60DEE16C121C800C988C9 /* BundleRelease.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 22E60DEC16C121C700C988C9 /* BundleRelease.xcconfig */; };
-		22E60DF016C1221100C988C9 /* ECPWBundle.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 22E60DEF16C1221100C988C9 /* ECPWBundle.xcconfig */; };
 		22E60DF516C1237B00C988C9 /* ExampleBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E60DF416C1237A00C988C9 /* ExampleBundle.m */; };
 		22E60DF916C1251E00C988C9 /* BundledPane.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E60DF816C1251C00C988C9 /* BundledPane.m */; };
 		22E60DFA16C128F200C988C9 /* ECConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E60DB716C006D100C988C9 /* ECConfig.framework */; };
@@ -134,7 +133,6 @@
 		22E60DDF16C1218000C988C9 /* ExampleBundle.preferences */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleBundle.preferences; sourceTree = BUILT_PRODUCTS_DIR; };
 		22E60DEB16C121C700C988C9 /* BundleDebug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = BundleDebug.xcconfig; sourceTree = "<group>"; };
 		22E60DEC16C121C700C988C9 /* BundleRelease.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = BundleRelease.xcconfig; sourceTree = "<group>"; };
-		22E60DEF16C1221100C988C9 /* ECPWBundle.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = ECPWBundle.xcconfig; sourceTree = "<group>"; };
 		22E60DF116C1231100C988C9 /* Bundle.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Bundle.plist; sourceTree = "<group>"; };
 		22E60DF316C1237A00C988C9 /* ExampleBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleBundle.h; sourceTree = "<group>"; };
 		22E60DF416C1237A00C988C9 /* ExampleBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleBundle.m; sourceTree = "<group>"; };
@@ -272,7 +270,6 @@
 				22E60D9F16C0054D00C988C9 /* Release.xcconfig */,
 				22E60DEB16C121C700C988C9 /* BundleDebug.xcconfig */,
 				22E60DEC16C121C700C988C9 /* BundleRelease.xcconfig */,
-				22E60DEF16C1221100C988C9 /* ECPWBundle.xcconfig */,
 			);
 			path = Configuration;
 			sourceTree = "<group>";
@@ -290,14 +287,10 @@
 		22E60DA916C0055D00C988C9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				22E60DD016C02E5900C988C9 /* BuiltInPane.xib */,
-				22E60DD216C037DE00C988C9 /* BuiltInPane.tiff */,
-				22E60DD416C03B6600C988C9 /* AnotherPane.tiff */,
-				22E60DD516C03B6600C988C9 /* AnotherPane.xib */,
-				22E60E0216C12E8000C988C9 /* BundledPane.tiff */,
-				22E60E0316C12E8000C988C9 /* BundledPane.xib */,
+				22E60E0C16C1445800C988C9 /* BuiltInPane */,
+				22E60E0B16C1444C00C988C9 /* AnotherPane */,
+				22E60E0A16C1443D00C988C9 /* BundledPane */,
 				22E60DAA16C0055D00C988C9 /* Info.plist */,
-				22E60DF116C1231100C988C9 /* Bundle.plist */,
 				22E60DCC16C0218C00C988C9 /* ECLogging.plist */,
 				22E60DCD16C0218C00C988C9 /* ECLoggingDebug.plist */,
 				22E60DAB16C0055D00C988C9 /* Credits.rtf */,
@@ -305,6 +298,34 @@
 				22E60DAF16C0055D00C988C9 /* MainMenu.xib */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		22E60E0A16C1443D00C988C9 /* BundledPane */ = {
+			isa = PBXGroup;
+			children = (
+				22E60E0216C12E8000C988C9 /* BundledPane.tiff */,
+				22E60E0316C12E8000C988C9 /* BundledPane.xib */,
+				22E60DF116C1231100C988C9 /* Bundle.plist */,
+			);
+			name = BundledPane;
+			sourceTree = "<group>";
+		};
+		22E60E0B16C1444C00C988C9 /* AnotherPane */ = {
+			isa = PBXGroup;
+			children = (
+				22E60DD416C03B6600C988C9 /* AnotherPane.tiff */,
+				22E60DD516C03B6600C988C9 /* AnotherPane.xib */,
+			);
+			name = AnotherPane;
+			sourceTree = "<group>";
+		};
+		22E60E0C16C1445800C988C9 /* BuiltInPane */ = {
+			isa = PBXGroup;
+			children = (
+				22E60DD016C02E5900C988C9 /* BuiltInPane.xib */,
+				22E60DD216C037DE00C988C9 /* BuiltInPane.tiff */,
+			);
+			name = BuiltInPane;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -427,7 +448,6 @@
 			files = (
 				22E60DED16C121C800C988C9 /* BundleDebug.xcconfig in Resources */,
 				22E60DEE16C121C800C988C9 /* BundleRelease.xcconfig in Resources */,
-				22E60DF016C1221100C988C9 /* ECPWBundle.xcconfig in Resources */,
 				22E60E0416C12E8000C988C9 /* BundledPane.tiff in Resources */,
 				22E60E0516C12E8000C988C9 /* BundledPane.xib in Resources */,
 			);
