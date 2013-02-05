@@ -1,0 +1,14 @@
+// --------------------------------------------------------------------------
+//  Copyright 2013 Sam Deane, Elegant Chaos. All rights reserved.
+//  This source code is distributed under the terms of Elegant Chaos's
+//  liberal license: http://www.elegantchaos.com/license/liberal
+// --------------------------------------------------------------------------
+
+// Defaults for standard definitions needed to link an ECPWBundle
+
+DYLIB_COMPATIBILITY_VERSION = 1
+DYLIB_CURRENT_VERSION = 1
+FRAMEWORK_VERSION = A
+PRODUCT_NAME = $(TARGET_NAME)
+WRAPPER_EXTENSION = preferences
+INSTALL_PATH = @rpath
