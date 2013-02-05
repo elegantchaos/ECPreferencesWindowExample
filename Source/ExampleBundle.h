@@ -8,6 +8,6 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface ExampleBundle : NSObject<ECPWBundle>
+@interface ExampleBundle : ECPWBundle
 
 @end

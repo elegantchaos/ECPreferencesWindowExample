@@ -10,14 +10,13 @@
 
 @implementation ExampleBundle
 
+ECDefineDebugChannel(ExampleBundleChannel);
+
 + (NSArray*)preferencesController:(ECPWController*)controller loadedBundle:(NSBundle*)bundle
 {
-    NSArray* panesToLoad =
-    @[
-      @{
-          @"Class": @"BundledPane"
-          }
-      ];
+    NSArray* panesToLoad = [ECPWBundle preferencesController:controller loadedBundle:bundle];
+
+    ECDebug(ExampleBundleChannel, @"Example Preferences Bundle Loaded");
 
     return panesToLoad;
 }

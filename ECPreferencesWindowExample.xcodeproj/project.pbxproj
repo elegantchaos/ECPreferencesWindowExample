@@ -39,7 +39,6 @@
 		22E60DED16C121C800C988C9 /* BundleDebug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 22E60DEB16C121C700C988C9 /* BundleDebug.xcconfig */; };
 		22E60DEE16C121C800C988C9 /* BundleRelease.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 22E60DEC16C121C700C988C9 /* BundleRelease.xcconfig */; };
 		22E60DF016C1221100C988C9 /* ECPWBundle.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 22E60DEF16C1221100C988C9 /* ECPWBundle.xcconfig */; };
-		22E60DF216C1231100C988C9 /* Bundle.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22E60DF116C1231100C988C9 /* Bundle.plist */; };
 		22E60DF516C1237B00C988C9 /* ExampleBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E60DF416C1237A00C988C9 /* ExampleBundle.m */; };
 		22E60DF916C1251E00C988C9 /* BundledPane.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E60DF816C1251C00C988C9 /* BundledPane.m */; };
 		22E60DFA16C128F200C988C9 /* ECConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E60DB716C006D100C988C9 /* ECConfig.framework */; };
@@ -429,7 +428,6 @@
 				22E60DED16C121C800C988C9 /* BundleDebug.xcconfig in Resources */,
 				22E60DEE16C121C800C988C9 /* BundleRelease.xcconfig in Resources */,
 				22E60DF016C1221100C988C9 /* ECPWBundle.xcconfig in Resources */,
-				22E60DF216C1231100C988C9 /* Bundle.plist in Resources */,
 				22E60E0416C12E8000C988C9 /* BundledPane.tiff in Resources */,
 				22E60E0516C12E8000C988C9 /* BundledPane.xib in Resources */,
 			);

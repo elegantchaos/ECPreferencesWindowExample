@@ -4,6 +4,18 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
+	<key>ECPreferencesWindow</key>
+	<dict>
+		<key>Panes</key>
+		<array>
+			<dict>
+				<key>Class</key>
+				<string>BundledPane</string>
+				<key>Name</key>
+				<string>Stuff</string>
+			</dict>
+		</array>
+	</dict>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIconFile</key>
