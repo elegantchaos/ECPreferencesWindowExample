@@ -47,6 +47,8 @@
 		22E60DFC16C128F200C988C9 /* ECLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E60DB916C006D100C988C9 /* ECLogging.framework */; };
 		22E60DFD16C128F200C988C9 /* ECPreferencesWindow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E60DBA16C006D100C988C9 /* ECPreferencesWindow.framework */; };
 		22E60E0116C129F200C988C9 /* ExampleBundle.preferences in CopyFiles */ = {isa = PBXBuildFile; fileRef = 22E60DDF16C1218000C988C9 /* ExampleBundle.preferences */; };
+		22E60E0416C12E8000C988C9 /* BundledPane.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 22E60E0216C12E8000C988C9 /* BundledPane.tiff */; };
+		22E60E0516C12E8000C988C9 /* BundledPane.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22E60E0316C12E8000C988C9 /* BundledPane.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -139,6 +141,8 @@
 		22E60DF416C1237A00C988C9 /* ExampleBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleBundle.m; sourceTree = "<group>"; };
 		22E60DF716C1251C00C988C9 /* BundledPane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BundledPane.h; sourceTree = "<group>"; };
 		22E60DF816C1251C00C988C9 /* BundledPane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BundledPane.m; sourceTree = "<group>"; };
+		22E60E0216C12E8000C988C9 /* BundledPane.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = BundledPane.tiff; sourceTree = "<group>"; };
+		22E60E0316C12E8000C988C9 /* BundledPane.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BundledPane.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -291,6 +295,8 @@
 				22E60DD216C037DE00C988C9 /* BuiltInPane.tiff */,
 				22E60DD416C03B6600C988C9 /* AnotherPane.tiff */,
 				22E60DD516C03B6600C988C9 /* AnotherPane.xib */,
+				22E60E0216C12E8000C988C9 /* BundledPane.tiff */,
+				22E60E0316C12E8000C988C9 /* BundledPane.xib */,
 				22E60DAA16C0055D00C988C9 /* Info.plist */,
 				22E60DF116C1231100C988C9 /* Bundle.plist */,
 				22E60DCC16C0218C00C988C9 /* ECLogging.plist */,
@@ -424,6 +430,8 @@
 				22E60DEE16C121C800C988C9 /* BundleRelease.xcconfig in Resources */,
 				22E60DF016C1221100C988C9 /* ECPWBundle.xcconfig in Resources */,
 				22E60DF216C1231100C988C9 /* Bundle.plist in Resources */,
+				22E60E0416C12E8000C988C9 /* BundledPane.tiff in Resources */,
+				22E60E0516C12E8000C988C9 /* BundledPane.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -31,7 +31,7 @@
 		<object class="NSMutableArray" key="IBDocument.RootObjects" id="473543095">
 			<bool key="EncodedWithXMLCoder">YES</bool>
 			<object class="NSCustomObject" id="598103085">
-				<string key="NSClassName">AnotherPane</string>
+				<string key="NSClassName">BundledPane</string>
 			</object>
 			<object class="NSCustomObject" id="802660645">
 				<string key="NSClassName">FirstResponder</string>
@@ -90,7 +90,7 @@
 					<object class="NSTextField" id="215227343">
 						<reference key="NSNextResponder" ref="52962180"/>
 						<int key="NSvFlags">268</int>
-						<string key="NSFrame">{{17, 190}, {388, 51}}</string>
+						<string key="NSFrame">{{17, 190}, {252, 51}}</string>
 						<reference key="NSSuperview" ref="52962180"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="506776397"/>
@@ -98,7 +98,7 @@
 						<object class="NSTextFieldCell" key="NSCell" id="773397793">
 							<int key="NSCellFlags">67108864</int>
 							<int key="NSCellFlags2">272629760</int>
-							<string key="NSContents">Another pane</string>
+							<string key="NSContents">This pane was loaded from a preferences bundle</string>
 							<reference key="NSSupport" ref="170783198"/>
 							<reference key="NSControlView" ref="215227343"/>
 							<object class="NSColor" key="NSBackgroundColor">
@@ -235,9 +235,9 @@
 						<reference key="object" ref="52962180"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="215227343"/>
 							<reference ref="506776397"/>
 							<reference ref="647424280"/>
+							<reference ref="215227343"/>
 						</object>
 						<reference key="parent" ref="0"/>
 						<string key="objectName">View</string>
@@ -355,11 +355,11 @@
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
 				<bool key="EncodedWithXMLCoder">YES</bool>
 				<object class="IBPartialClassDescription">
-					<string key="className">AnotherPane</string>
+					<string key="className">BundledPane</string>
 					<string key="superclassName">ECPWPane</string>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/AnotherPane.h</string>
+						<string key="minorKey">./Classes/BundledPane.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">

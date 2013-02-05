@@ -9,7 +9,7 @@
 		<key>AlwaysShowsToolbar</key>
 		<false/>
 		<key>BundleExtension</key>
-		<string>preferencesPane</string>
+		<string>preferences</string>
 		<key>BundleDirectory</key>
 		<string>Preferences</string>
 		<key>UsesTexturedWindow</key>
