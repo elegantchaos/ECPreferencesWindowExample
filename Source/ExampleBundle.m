@@ -12,13 +12,13 @@
 
 ECDefineDebugChannel(ExampleBundleChannel);
 
-+ (NSArray*)preferencesController:(ECPWController*)controller loadedBundle:(NSBundle*)bundle
+- (id)initWithController:(ECPWController *)controller bundle:(NSBundle *)bundle
 {
-    NSArray* panesToLoad = [ECPWBundle preferencesController:controller loadedBundle:bundle];
-
     ECDebug(ExampleBundleChannel, @"Example Preferences Bundle Loaded");
 
-    return panesToLoad;
+    self = [super initWithController:controller bundle:bundle];
+
+    return self;
 }
 
 @end

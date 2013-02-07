@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>12C60</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>ExampleBundle</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.elegantchaos.ExampleBundle</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>ExampleBundle</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>4H127</string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>12C37</string>
+	<key>DTSDKName</key>
+	<string>macosx10.8</string>
+	<key>DTXcode</key>
+	<string>0460</string>
+	<key>DTXcodeBuild</key>
+	<string>4H127</string>
+	<key>ECPreferencesWindow</key>
+	<dict>
+		<key>Panes</key>
+		<array>
+			<dict>
+				<key>Identifier</key>
+				<string>BundledPaneInLibrary</string>
+				<key>Class</key>
+				<string>BundledPane</string>
+				<key>Bundle</key>
+				<string>BundledPane</string>
+				<key>Name</key>
+				<string>In Library</string>
+				<key>Icon</key>
+				<string>BundledPane</string>
+				<key>ToolTip</key>
+				<string>This pane was loaded from the Library folder</string>
+			</dict>
+		</array>
+	</dict>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2013 Elegant Chaos. All rights reserved.</string>
+	<key>NSPrincipalClass</key>
+	<string>ExampleBundle</string>
+</dict>
+</plist>

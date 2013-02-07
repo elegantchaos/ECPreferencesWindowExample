@@ -93,6 +93,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		22B9443416C41002002AD1C5 /* Library.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Library.plist; sourceTree = "<group>"; };
 		22E60D6316C0041700C988C9 /* ECPreferencesWindowExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = ECPreferencesWindowExample.app; path = Application.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22E60D6616C0041700C988C9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		22E60D6916C0041700C988C9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -306,6 +307,7 @@
 				22E60E0216C12E8000C988C9 /* BundledPane.tiff */,
 				22E60E0316C12E8000C988C9 /* BundledPane.xib */,
 				22E60DF116C1231100C988C9 /* Bundle.plist */,
+				22B9443416C41002002AD1C5 /* Library.plist */,
 			);
 			name = BundledPane;
 			sourceTree = "<group>";
@@ -377,6 +379,7 @@
 				22E60DDB16C1218000C988C9 /* Sources */,
 				22E60DDC16C1218000C988C9 /* Frameworks */,
 				22E60DDD16C1218000C988C9 /* Resources */,
+				22B9443516C410F7002AD1C5 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -456,6 +459,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		22B9443516C410F7002AD1C5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "PLUGIN_DIR=\"${HOME}/Library/Application Support/com.elegantchaos.ecpreferenceswindow.example/PlugIns\"\nmkdir -p \"${PLUGIN_DIR}\"\ncp -fR \"${CONFIGURATION_BUILD_DIR}/${FULL_PRODUCT_NAME}\" \"${PLUGIN_DIR}/\"\ncp -f \"${SRCROOT}/Resources/Library.plist\" \"${PLUGIN_DIR}/${FULL_PRODUCT_NAME}/Contents/Info.plist\"";
+		};
 		22E60D8116C0041700C988C9 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
