@@ -83,7 +83,7 @@
 		22E60E0016C129DC00C988C9 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = ../Preferences;
+			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
 				22E60E0116C129F200C988C9 /* ExampleBundle.preferences in CopyFiles */,

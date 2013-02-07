@@ -11,13 +11,13 @@
 		<key>BundleExtension</key>
 		<string>preferences</string>
 		<key>BundleDirectory</key>
-		<string>Preferences</string>
+		<string>PlugIns</string>
 		<key>ToolbarDisplayMode</key>
 		<string>1</string>
 		<key>ToolbarSizeMode</key>
 		<string>0</string>
-		<key>UsesTexturedWindow</key>
-		<false/>
+		<key>Style</key>
+		<integer>267</integer>
 		<key>Panes</key>
 		<array>
 			<dict>
@@ -45,7 +45,7 @@
 	<key>CFBundleIconFile</key>
 	<string></string>
 	<key>CFBundleIdentifier</key>
-	<string>com.elegantchaos.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>com.elegantchaos.ecpreferenceswindow.example</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
