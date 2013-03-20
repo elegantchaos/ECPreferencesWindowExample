@@ -11,7 +11,7 @@
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
 @property (strong, nonatomic) ECPWController* preferences;
-@property (assign) IBOutlet NSWindow *window;
+@property (assign, nonatomic) IBOutlet NSWindow *window;
 
 - (IBAction)selectSecondPane:(id)sender;
 - (IBAction)selectThirdPane:(id)sender;
