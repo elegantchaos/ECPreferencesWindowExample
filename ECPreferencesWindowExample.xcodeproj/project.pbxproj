@@ -95,7 +95,7 @@
 		22E60D6916C0041700C988C9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		22E60D6A16C0041700C988C9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		22E60D6B16C0041700C988C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		22E60D8316C0041700C988C9 /* ECPreferencesWindowExampleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ECPreferencesWindowExampleTests.octest; path = Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22E60D8316C0041700C988C9 /* Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22E60D8416C0041700C988C9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		22E60D8B16C0041700C988C9 /* ECPreferencesWindowExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ECPreferencesWindowExampleTests-Info.plist"; sourceTree = "<group>"; };
 		22E60D8D16C0041700C988C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -188,7 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				22E60D6316C0041700C988C9 /* Application.app */,
-				22E60D8316C0041700C988C9 /* ECPreferencesWindowExampleTests.octest */,
+				22E60D8316C0041700C988C9 /* Tests.octest */,
 				22E60DDF16C1218000C988C9 /* ExampleBundle.preferences */,
 			);
 			name = Products;
@@ -361,7 +361,7 @@
 			);
 			name = Tests;
 			productName = ECPreferencesWindowExampleTests;
-			productReference = 22E60D8316C0041700C988C9 /* ECPreferencesWindowExampleTests.octest */;
+			productReference = 22E60D8316C0041700C988C9 /* Tests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 		22E60DDE16C1218000C988C9 /* ExampleBundle */ = {
@@ -603,9 +603,7 @@
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ECPreferencesWindowExample.app/Contents/MacOS/ECPreferencesWindowExample";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ECPreferencesWindowExample/ECPreferencesWindowExample-Prefix.pch";
-				INFOPLIST_FILE = "ECPreferencesWindowExampleTests/ECPreferencesWindowExampleTests-Info.plist";
+				INFOPLIST_FILE = "Tests/ECPreferencesWindowExampleTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
@@ -618,9 +616,7 @@
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ECPreferencesWindowExample.app/Contents/MacOS/ECPreferencesWindowExample";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ECPreferencesWindowExample/ECPreferencesWindowExample-Prefix.pch";
-				INFOPLIST_FILE = "ECPreferencesWindowExampleTests/ECPreferencesWindowExampleTests-Info.plist";
+				INFOPLIST_FILE = "Tests/ECPreferencesWindowExampleTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
