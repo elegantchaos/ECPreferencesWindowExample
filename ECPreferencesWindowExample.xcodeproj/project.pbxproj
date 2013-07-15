@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		224CA90E1793F74E007369FA /* ECCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224CA90D1793F74E007369FA /* ECCore.framework */; };
+		224CA9101793F754007369FA /* ECPreferencesWindow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224CA90F1793F754007369FA /* ECPreferencesWindow.framework */; };
+		224CA9121793F75A007369FA /* ECLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224CA9111793F75A007369FA /* ECLogging.framework */; };
 		22E60D6716C0041700C988C9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E60D6616C0041700C988C9 /* Cocoa.framework */; };
 		22E60D8516C0041700C988C9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E60D8416C0041700C988C9 /* SenTestingKit.framework */; };
 		22E60D8616C0041700C988C9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E60D6616C0041700C988C9 /* Cocoa.framework */; };
@@ -19,12 +22,6 @@
 		22E60DB216C0055D00C988C9 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 22E60DAB16C0055D00C988C9 /* Credits.rtf */; };
 		22E60DB316C0055D00C988C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22E60DAD16C0055D00C988C9 /* InfoPlist.strings */; };
 		22E60DB416C0055D00C988C9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22E60DAF16C0055D00C988C9 /* MainMenu.xib */; };
-		22E60DBC16C006D100C988C9 /* ECCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E60DB816C006D100C988C9 /* ECCore.framework */; };
-		22E60DBD16C006D100C988C9 /* ECLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E60DB916C006D100C988C9 /* ECLogging.framework */; };
-		22E60DBE16C006D100C988C9 /* ECPreferencesWindow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E60DBA16C006D100C988C9 /* ECPreferencesWindow.framework */; };
-		22E60DC116C006FF00C988C9 /* ECCore.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 22E60DB816C006D100C988C9 /* ECCore.framework */; };
-		22E60DC216C0070100C988C9 /* ECLogging.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 22E60DB916C006D100C988C9 /* ECLogging.framework */; };
-		22E60DC316C0070400C988C9 /* ECPreferencesWindow.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 22E60DBA16C006D100C988C9 /* ECPreferencesWindow.framework */; };
 		22E60DC816C0104F00C988C9 /* BuiltInPane.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E60DC716C0104E00C988C9 /* BuiltInPane.m */; };
 		22E60DCE16C0218C00C988C9 /* ECLogging.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22E60DCC16C0218C00C988C9 /* ECLogging.plist */; };
 		22E60DCF16C0218C00C988C9 /* ECLoggingDebug.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22E60DCD16C0218C00C988C9 /* ECLoggingDebug.plist */; };
@@ -38,9 +35,6 @@
 		22E60DEE16C121C800C988C9 /* BundleRelease.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 22E60DEC16C121C700C988C9 /* BundleRelease.xcconfig */; };
 		22E60DF516C1237B00C988C9 /* ExampleBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E60DF416C1237A00C988C9 /* ExampleBundle.m */; };
 		22E60DF916C1251E00C988C9 /* BundledPane.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E60DF816C1251C00C988C9 /* BundledPane.m */; };
-		22E60DFB16C128F200C988C9 /* ECCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E60DB816C006D100C988C9 /* ECCore.framework */; };
-		22E60DFC16C128F200C988C9 /* ECLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E60DB916C006D100C988C9 /* ECLogging.framework */; };
-		22E60DFD16C128F200C988C9 /* ECPreferencesWindow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E60DBA16C006D100C988C9 /* ECPreferencesWindow.framework */; };
 		22E60E0116C129F200C988C9 /* ExampleBundle.preferences in CopyFiles */ = {isa = PBXBuildFile; fileRef = 22E60DDF16C1218000C988C9 /* ExampleBundle.preferences */; };
 		22E60E0416C12E8000C988C9 /* BundledPane.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 22E60E0216C12E8000C988C9 /* BundledPane.tiff */; };
 		22E60E0516C12E8000C988C9 /* BundledPane.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22E60E0316C12E8000C988C9 /* BundledPane.xib */; };
@@ -70,9 +64,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				22E60DC116C006FF00C988C9 /* ECCore.framework in CopyFiles */,
-				22E60DC316C0070400C988C9 /* ECPreferencesWindow.framework in CopyFiles */,
-				22E60DC216C0070100C988C9 /* ECLogging.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +80,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		224CA90D1793F74E007369FA /* ECCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ECCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		224CA90F1793F754007369FA /* ECPreferencesWindow.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ECPreferencesWindow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		224CA9111793F75A007369FA /* ECLogging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ECLogging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22B9443416C41002002AD1C5 /* Library.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Library.plist; sourceTree = "<group>"; };
 		22E60D6316C0041700C988C9 /* Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Application.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22E60D6616C0041700C988C9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -113,9 +107,6 @@
 		22E60DAC16C0055D00C988C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		22E60DAE16C0055D00C988C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		22E60DB016C0055D00C988C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		22E60DB816C006D100C988C9 /* ECCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ECCore.framework; path = "/Caches/DerivedData/ECIntegration-fbajcwyruhnhxzgnphlhxaexutkp/Build/Products/Debug/ECCore.framework"; sourceTree = "<absolute>"; };
-		22E60DB916C006D100C988C9 /* ECLogging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ECLogging.framework; path = "/Caches/DerivedData/ECIntegration-fbajcwyruhnhxzgnphlhxaexutkp/Build/Products/Debug/ECLogging.framework"; sourceTree = "<absolute>"; };
-		22E60DBA16C006D100C988C9 /* ECPreferencesWindow.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ECPreferencesWindow.framework; path = "/Caches/DerivedData/ECIntegration-fbajcwyruhnhxzgnphlhxaexutkp/Build/Products/Debug/ECPreferencesWindow.framework"; sourceTree = "<absolute>"; };
 		22E60DC616C0104E00C988C9 /* BuiltInPane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuiltInPane.h; sourceTree = "<group>"; };
 		22E60DC716C0104E00C988C9 /* BuiltInPane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuiltInPane.m; sourceTree = "<group>"; };
 		22E60DCC16C0218C00C988C9 /* ECLogging.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ECLogging.plist; sourceTree = "<group>"; };
@@ -143,9 +134,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22E60DBC16C006D100C988C9 /* ECCore.framework in Frameworks */,
-				22E60DBD16C006D100C988C9 /* ECLogging.framework in Frameworks */,
-				22E60DBE16C006D100C988C9 /* ECPreferencesWindow.framework in Frameworks */,
+				224CA9121793F75A007369FA /* ECLogging.framework in Frameworks */,
+				224CA9101793F754007369FA /* ECPreferencesWindow.framework in Frameworks */,
+				224CA90E1793F74E007369FA /* ECCore.framework in Frameworks */,
 				22E60D6716C0041700C988C9 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -164,9 +155,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				22E60DE016C1218000C988C9 /* Cocoa.framework in Frameworks */,
-				22E60DFB16C128F200C988C9 /* ECCore.framework in Frameworks */,
-				22E60DFC16C128F200C988C9 /* ECLogging.framework in Frameworks */,
-				22E60DFD16C128F200C988C9 /* ECPreferencesWindow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,9 +185,9 @@
 		22E60D6516C0041700C988C9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				22E60DB816C006D100C988C9 /* ECCore.framework */,
-				22E60DB916C006D100C988C9 /* ECLogging.framework */,
-				22E60DBA16C006D100C988C9 /* ECPreferencesWindow.framework */,
+				224CA9111793F75A007369FA /* ECLogging.framework */,
+				224CA90F1793F754007369FA /* ECPreferencesWindow.framework */,
+				224CA90D1793F74E007369FA /* ECCore.framework */,
 				22E60D6616C0041700C988C9 /* Cocoa.framework */,
 				22E60D8416C0041700C988C9 /* SenTestingKit.framework */,
 				22E60D6816C0041700C988C9 /* Other Frameworks */,
@@ -577,6 +565,10 @@
 			buildSettings = {
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../../../../../../../../castor/Caches/DerivedData/ECIntegration-fbajcwyruhnhxzgnphlhxaexutkp/Build/Products/Debug",
+				);
 				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -590,6 +582,10 @@
 			buildSettings = {
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../../../../../../../../../castor/Caches/DerivedData/ECIntegration-fbajcwyruhnhxzgnphlhxaexutkp/Build/Products/Debug",
+				);
 				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
